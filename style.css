@@ -1,7 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Lora');
+
 body {
-  font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande',
-    sans-serif;
-  font-weight: 300;
+  /* font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande',
+    sans-serif; */
+    font-family: 'Lora', serif;
+    font-size: .7rem;
+  font-weight: 700;
 }
 
 #container {
@@ -17,14 +21,19 @@ body {
 }
 
 #pokemon-search-input {
-  font-size: 3rem;
+  font-size: 2rem;
   border: 3px solid #fecd2f;
   color: #2d72fc;
 }
 
 #pokemon-logo {
-  width: 300px;
-  margin-left: 330px;
+  /* width: 300px; */
+  margin-left: 280px;
+}
+
+#pokemon-container {
+  margin-top: 1rem;
+
 }
 
 input:focus {
